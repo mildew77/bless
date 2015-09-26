@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="blessing">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bless Me</title>
+    <script src="jquery.js"></script>
+    <link data-require="bootstrap@3.3.5" data-semver="3.3.5" rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" />
+    <script data-require="bootstrap@3.3.5" data-semver="3.3.5" src="..\blessing\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" />
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/velocity-animate/velocity.js"></script> 
+    
+    <script src="app.js"></script>
+  </head>
+  
+  <body ng-controller="MainCtrl">
+   
+    <!-- <h1 class="first">Plant a seed</h1>  
+   <h1 id="second">Reap the rewards for years to come</h1>
+   <h1 id="third">Please contribute today</h1> -->
+   
+
+
+<object id="music"><param name="movie" value="http://freemusicarchive.org/swf/trackplayer.swf"/><param name="flashvars" value="track=http://freemusicarchive.org/services/playlists/embed/track/66543.xml"/><param name="allowscriptaccess" value="sameDomain"/><embed type="application/x-shockwave-flash" src="http://freemusicarchive.org/swf/trackplayer.swf"  flashvars="track=http://freemusicarchive.org/services/playlists/embed/track/66543.xml" allowscriptaccess="sameDomain" /></object>
+<!-- 
+<audio controls id="audio">
+    <source id="playSong" src="https://s3.amazonaws.com/heaven/Chris_Zabriskie_-_03_-_Out_of_the_Skies_Under_the_Earth.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+  </audio> -->
+
+ 
+<form id="contribute" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VH243RWTXV554">
+<input type="image" src="https://s3.amazonaws.com/blessme.us/Receive%2Ba%2BBlessing.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+
+<img src="https://s3.amazonaws.com/heaven/heaven.jpg" id="cloudySky">
+
+
+
+
+
+  </body>
+</html>

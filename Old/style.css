@@ -1,0 +1,117 @@
+/* Put your css in here */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+/* Safari and Chrome */
+.myClass {
+ color:red;
+}
+
+/* Safari only override */
+::i-block-chrome,.first {
+ left: 35%;
+}
+::i-block-chrome,.second {
+ left: 80%;
+}
+::i-block-chrome,.third {
+ left: -10%;
+}
+
+
+}
+body{
+
+	overflow:hidden;
+}
+
+
+
+.first{
+font-family: 'Roboto', sans-serif;
+
+	font-size: 400%;
+	position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    white-space: nowrap;
+  overflow: hidden;
+  display: inline;
+opacity:0;
+z-index:300;
+}
+.second{
+	font-family: 'Roboto', sans-serif;
+
+	font-size: 200%;
+	position:absolute;
+  top: 40%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+    white-space: nowrap;
+  overflow: hidden;
+  opacity:0;
+
+
+
+}
+.third{
+font-family: 'Roboto', sans-serif;
+
+  font-size: 300%;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+    white-space: nowrap;
+  overflow: hidden;
+  display: inline;
+opacity:0;
+z-index:300;
+}
+.confirmation{
+font-family: 'Roboto', sans-serif;
+
+  font-size: 100%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    white-space: nowrap;
+  overflow: hidden;
+  display: inline;
+
+z-index:300;
+}
+
+<!if opera>
+    .confirmation { left: 30%; }
+<![endif]>
+
+
+#cloudySky{
+	opacity:0;
+   position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+ 
+}
+#music{
+
+	display:none;
+}
+
+#contribute{
+
+   float: left;
+   position: absolute;
+   left: 40%;
+   top: 80%;
+   z-index: 1000;
+   padding: 5px;
+  margin: 0 auto;
+}
+
